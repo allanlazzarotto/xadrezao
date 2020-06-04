@@ -4,6 +4,7 @@
  * and open the template in the editor.
  */
 package aplication;
+import tabuleirao.Posicao;
 
 /**
  *
@@ -15,7 +16,11 @@ public class Program {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-       System.out.println("Ola mundão!!!");
+       Posicao pos= new Posicao(5,8);
+       
+       System.out.println(pos.toString());
+    
+       
        
     }
     
